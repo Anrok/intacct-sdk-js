@@ -1,6 +1,6 @@
 {
   "name": "@intacct/intacct-sdk",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Sage Intacct SDK for JavaScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,6 +36,7 @@
     "prebuild": "rimraf dist/*",
     "build": "npm run build-ts",
     "build-ts": "tsc",
+    "prepare": "npm run build",
     "tslint": "tslint -c tslint.json 'src/**/*.ts'",
     "doc": "rimraf doc && typedoc src/",
     "pretest": "npm run build",
