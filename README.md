@@ -15,7 +15,7 @@
 ## System Requirements
 
 * You must have an active Sage Intacct Web Services Developer license
-* Node.js >= 14.20.0. The SDK is written in TypeScript and targets ES2015.
+* Node.js >= 18.0.0. The SDK is written in TypeScript and targets ES2015.
 
 [intacct]: http://www.intacct.com
 [ia-developer]: https://developer.intacct.com/
